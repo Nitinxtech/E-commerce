@@ -1,0 +1,6 @@
+@Myntra.backend_HostAddress = http://localhost:5147
+
+GET {{Myntra.backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
