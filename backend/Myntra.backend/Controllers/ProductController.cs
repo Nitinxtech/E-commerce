@@ -94,20 +94,20 @@ namespace Myntra.Backend.Controllers
         }
 
         // PATCH: api/products/5/rate
-        [HttpPatch("{id:int}/rate")]
-        public async Task<IActionResult> Rate(int id, [FromQuery] double rating)
-        {
-            if (rating < 0 || rating > 5) return BadRequest("rating must be between 0 and 5");
-            var p = await _db.Products.FindAsync(id);
-            if (p == null) return NotFound();
+        // [HttpPatch("{id:int}/rate")]
+        // public async Task<IActionResult> Rate(int id, [FromQuery] double rating)
+        // {
+        //     if (rating < 0 || rating > 5) return BadRequest("rating must be between 0 and 5");
+        //     var p = await _db.Products.FindAsync(id);
+        //     if (p == null) return NotFound();
 
-            // update average rating simple approach
-            var totalScore = p.Rating * p.RatingCount;
-            p.RatingCount += 1;
-            p.Rating = (totalScore + rating) / p.RatingCount;
+        //     // update average rating simple approach
+        //     var totalScore = p.Rating * p.RatingCount;
+        //     p.RatingCount += 1;
+        //     p.Rating = (totalScore + rating) / p.RatingCount;
 
-            await _db.SaveChangesAsync();
-            return Ok(p);
-        }
+        //     await _db.SaveChangesAsync();
+        //     return Ok(p);
+        // }
     }
 }

@@ -163,3 +163,6 @@ C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend
 C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\obj\Debug\net9.0\Myntra.backend.sourcelink.json
+C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\bin\Debug\net9.0\BCrypt.Net-Core.dll
+C:\Users\NitinPandey\OneDrive - CG Infinity\Desktop\Ecommerce Assignment\backend\Myntra.backend\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

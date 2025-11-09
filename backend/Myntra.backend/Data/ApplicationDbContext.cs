@@ -10,6 +10,7 @@ namespace Myntra.Backend.Data
             : base(options) { }
 
         public DbSet<Product> Products { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
