@@ -22,7 +22,7 @@ export default function ProductCard({ product }) {
       <p className="text-gray-600 dark:text-gray-400">₹{product.price}</p>
       <div className="flex gap-2 mt-2">
         <button onClick={() => addToCart(product)} className="bg-blue-600 text-white px-2 py-1 rounded text-sm">Add to Cart</button>
-        <button onClick={() => addToWishlist(product)} className="bg-pink-500 text-white px-2 py-1 rounded text-sm">❤️</button>
+        <button onClick={() => addToWishlist(product)} className="bg-pink-500 text-white px-2 py-1 rounded text-sm">Add to Wishlist</button>
       </div>
     </div>
   );

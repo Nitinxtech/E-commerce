@@ -8,7 +8,7 @@ export default function Cart() {
   if (cart.length === 0) {
     return (
       <p className="text-center mt-10 text-gray-600 text-lg">
-        🛒 Your cart is empty — go grab some cool stuff!
+        Your cart is empty — go grab some cool stuff!
       </p>
     );
   }

@@ -19,11 +19,11 @@ export default function AddProductForm() {
         ...form,
         price: parseFloat(form.price),
         stock: parseInt(form.stock),
-        category: parseInt(form.category) // ✅ fixed
+        category: parseInt(form.category)
       };
 
       await axios.post("http://localhost:5147/api/products", payload);
-      alert("✅ Product Added Successfully!");
+      alert("Product Added Successfully!");
       setForm({
         title: "",
         description: "",
@@ -35,7 +35,7 @@ export default function AddProductForm() {
       });
     } catch (err) {
       console.error("Error while adding product:", err);
-      alert("❌ Error occurred while adding product!");
+      alert("Error occurred while adding product!");
     }
   };
 

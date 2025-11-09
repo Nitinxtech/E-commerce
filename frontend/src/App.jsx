@@ -9,6 +9,10 @@ import Wishlist from "./components/Wishlist";
 import Cart from "./components/Cart";
 import AddProductForm from "./components/AddProductForm";
 
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
+
+
 function App() {
   return (
     <div className="min-h-screen flex flex-col dark:bg-gray-900 dark:text-white">
@@ -22,6 +26,10 @@ function App() {
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/add-product" element={<AddProductForm />} />
+
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+
         </Routes>
       </div>
       <Footer />
